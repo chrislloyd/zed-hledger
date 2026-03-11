@@ -13,7 +13,6 @@
 (date) @number
 (status) @keyword
 (code) @string
-(description) @title
 (account) @property
 (amount) @number
 (commodity) @type
