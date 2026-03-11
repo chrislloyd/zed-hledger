@@ -1,0 +1,4 @@
+name = "hledger"
+grammar = "hledger"
+path_suffixes = ["journal", "j", "hledger", "ledger"]
+line_comments = ["; "]

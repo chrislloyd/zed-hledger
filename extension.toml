@@ -1,0 +1,12 @@
+id = "hledger"
+name = "hledger"
+description = "hledger/ledger plain-text accounting support."
+version = "0.0.1"
+schema_version = 1
+authors = ["Chris Lloyd"]
+repository = "https://github.com/chrislloyd/zed-hledger"
+languages = ["languages/hledger"]
+
+[grammars.hledger]
+repository = "https://github.com/chrislloyd/tree-sitter-hledger"
+rev = "1bc2ed8f2f99535acef7203d4edd073a9216a4a6"
