@@ -8,12 +8,6 @@
   "payee"
   "tag"
   "decimal-mark"
-  "~"
-  "daily"
-  "weekly"
-  "monthly"
-  "quarterly"
-  "yearly"
 ] @keyword
 
 (date) @number
@@ -23,6 +17,7 @@
 (account) @property
 (amount) @number
 (commodity) @type
+(interval) @keyword
 
 [
   (comment)
@@ -30,7 +25,12 @@
 ] @comment
 
 (balance_assertion) @operator
+(balance_assertion (amount) @number)
+
 (cost_spec) @operator
+(cost_spec (amount) @number)
+
+"~" @keyword
 
 [
   "("

@@ -9,4 +9,5 @@ languages = ["languages/hledger"]
 
 [grammars.hledger]
 repository = "https://github.com/chrislloyd/tree-sitter-hledger"
-rev = "1bc2ed8f2f99535acef7203d4edd073a9216a4a6"
+rev = "8ee65478cb941a8cdaa798ffa73bb4437d4c4d07"
+path = "journal"
