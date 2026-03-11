@@ -1,13 +1,28 @@
 id = "hledger"
 name = "hledger"
 description = "hledger/ledger plain-text accounting support."
-version = "0.0.1"
+version = "0.0.2"
 schema_version = 1
 authors = ["Chris Lloyd"]
 repository = "https://github.com/chrislloyd/zed-hledger"
-languages = ["languages/hledger"]
+languages = ["languages/hledger", "languages/timeclock", "languages/timedot", "languages/csv-rules"]
 
 [grammars.hledger]
 repository = "https://github.com/chrislloyd/tree-sitter-hledger"
 rev = "8ee65478cb941a8cdaa798ffa73bb4437d4c4d07"
 path = "journal"
+
+[grammars.hledger_timeclock]
+repository = "https://github.com/chrislloyd/tree-sitter-hledger"
+rev = "8ee65478cb941a8cdaa798ffa73bb4437d4c4d07"
+path = "timeclock"
+
+[grammars.hledger_timedot]
+repository = "https://github.com/chrislloyd/tree-sitter-hledger"
+rev = "8ee65478cb941a8cdaa798ffa73bb4437d4c4d07"
+path = "timedot"
+
+[grammars.hledger_csv]
+repository = "https://github.com/chrislloyd/tree-sitter-hledger"
+rev = "8ee65478cb941a8cdaa798ffa73bb4437d4c4d07"
+path = "csv"

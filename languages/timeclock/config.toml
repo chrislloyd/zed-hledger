@@ -1,0 +1,4 @@
+name = "hledger timeclock"
+grammar = "hledger_timeclock"
+path_suffixes = ["timeclock"]
+line_comments = ["; "]

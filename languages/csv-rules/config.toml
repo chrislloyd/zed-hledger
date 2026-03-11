@@ -1,0 +1,4 @@
+name = "hledger CSV rules"
+grammar = "hledger_csv"
+path_suffixes = ["rules"]
+line_comments = ["; "]

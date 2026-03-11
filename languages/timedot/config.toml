@@ -1,0 +1,4 @@
+name = "hledger timedot"
+grammar = "hledger_timedot"
+path_suffixes = ["timedot"]
+line_comments = ["; "]
